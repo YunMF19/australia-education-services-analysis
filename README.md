@@ -38,6 +38,7 @@ To preview the website without any input data: `python -m http.server 8000 --dir
 - The proximity measure uses the smaller valid recorded bus/train distance for each service and compares it with the pooled national median nearest distance (currently 2.32 km). The full-precision threshold is shared by all states; the median is less sensitive to extreme distances than the mean. The station list is not established as a complete public-transport inventory.
 - Urban/rural comparisons use the notebook's SOS classification; unmatched categories are grouped as Rural under the stated analytical rule.
 - Capacity boxplots use observed positive places for the selected end-of-2024 Centre-Based Care cohort. Other capacity views retain their documented imputation rules.
+- The demand/accessibility scatter compares estimated children per service with median nearest recorded bus/train distance in the same end-of-2024 service cohort. Set `distance_statistic` to `mean` in the notebook to use averages instead.
 - The birth-cohort proxy is not a current resident-population estimate. These descriptive comparisons do not establish causality.
 
 No license for third-party source data is granted by this repository. Obtain input data from the relevant provider and follow its terms.
