@@ -35,7 +35,7 @@ To preview the website without any input data: `python -m http.server 8000 --dir
 
 - Below NQS combines **Working Towards NQS** and **Significant Improvement Required**. Denominators include recognized current ratings separately for each quality area.
 - National rates pool service records; they are not unweighted averages of state percentages.
-- The 2 km proximity measure uses the smaller valid recorded bus/train distance for each service. The station list is not established as a complete public-transport inventory.
+- The proximity measure uses the smaller valid recorded bus/train distance for each service and compares it with the pooled national mean nearest distance (currently 9.51 km). The full-precision threshold is shared by all states; extreme distances influence the mean. The station list is not established as a complete public-transport inventory.
 - Urban/rural comparisons use the notebook's SOS classification; unmatched categories are grouped as Rural under the stated analytical rule.
 - Capacity boxplots use observed positive places for the selected end-of-2024 Centre-Based Care cohort. Other capacity views retain their documented imputation rules.
 - The birth-cohort proxy is not a current resident-population estimate. These descriptive comparisons do not establish causality.
