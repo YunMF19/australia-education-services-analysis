@@ -1,8 +1,8 @@
 {
-  "source_notebook_sha256": "25c063652ab25e998e17e81ec9f852dbad6920feef132da5aca9a35b97940895",
+  "source_notebook_sha256": "39ff6fdbfe78d072cdb775cbedc0cd992fa7f7d227cc337c00d888de94865f19",
   "interactive_charts": 10,
   "static_figures": 103,
-  "package_bytes": 9665233,
+  "package_bytes": 9665270,
   "transport_threshold": "Pooled national median of nearest recorded bus/train distance",
   "transport_threshold_km": 2.31853323426257
 }
