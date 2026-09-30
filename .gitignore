@@ -1,0 +1,16 @@
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.env
+.env.*
+*.csv
+*.xlsx
+*.shp
+*.shx
+*.dbf
+*.prj
+*.geojson
+*.pptx
+*.zip
+backups/
+tmp/
